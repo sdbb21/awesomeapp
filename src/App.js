@@ -1,6 +1,7 @@
-// src/App.js
-// ...
-import Title from "./components/Title";
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Title from "./Title";
 
 function App() {
   return (
@@ -8,7 +9,6 @@ function App() {
       <main>
         <Title />
       </main>
-
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +19,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer">
-          Learn React
+          Welcome to Codai sseur
         </a>
       </header>
     </div>
@@ -27,4 +27,3 @@ function App() {
 }
 
 export default App;
-// ...
